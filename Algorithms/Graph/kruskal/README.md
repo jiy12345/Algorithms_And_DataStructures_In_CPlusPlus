@@ -6,7 +6,7 @@
 각 단계에서 연결한 간선을 선택하는 과정에서 가장 비용이 적은 간선을 선택하기 때문에, 그리디 알고리즘으로 분류할 수 있습니다. 
 
 ## 동작 방식
-![Kruskal Demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)
+![Kruskal Demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)  
 위 그림은 크루스칼 알고리즘이 동작하는 모습을 보여주고 있는데, 각 단계에서 가중치가 비용이 가장 적은 간선을 선택하되, 사이클이 발생하는 간선은 선택하지 않는 것을 확인할 수 있습니다. 사이클이 발생하게 하는 간선의 경우 모든 노드를 연결하는데 있어 불필요한 간선이 하나 추가되는 것이므로, 사이클이 발생하도록 하는 간선은 추가하지 않고 바로 다음 
 
 ## 참고
