@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{08f4c561-e0f5-4a5a-80d9-2e08c36d4f32}</ProjectGuid>
+    <ProjectGuid>{8355b3c7-2952-4a93-bd06-9d8652486fa5}</ProjectGuid>
     <RootNamespace>unionfind</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="UnionFind.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="test.cpp" />
     <ClCompile Include="UnionFind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnionFind.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
