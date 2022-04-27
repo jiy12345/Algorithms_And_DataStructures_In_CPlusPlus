@@ -140,9 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\union find\UnionFind.h" />
     <ClInclude Include="Kruskal.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\union find\UnionFind.cpp" />
     <ClCompile Include="Kruskal.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
