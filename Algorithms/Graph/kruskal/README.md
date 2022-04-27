@@ -16,5 +16,5 @@
 * [합집합 찾기(Union Find) or 서로소 집합(disjoint-set) 자료구조](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/tree/master/Data%20Structures/union%20find)
 
 ## 관련 알고리즘 문제
-[1197: 최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
-[1922: 네트워크 연결](https://www.acmicpc.net/problem/1922)
+- [1197: 최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+- [1922: 네트워크 연결](https://www.acmicpc.net/problem/1922)
