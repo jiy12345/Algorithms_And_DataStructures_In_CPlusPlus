@@ -14,3 +14,7 @@
 * [최소 신장 트리(MST: Minimum Spanning Tree)](https://en.wikipedia.org/wiki/Minimum_spanning_tree)
 * [그리디 알고리즘(Greedy Algorithm)](https://ko.wikipedia.org/wiki/%ED%83%90%EC%9A%95_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 * [합집합 찾기(Union Find) or 서로소 집합(disjoint-set) 자료구조](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/tree/master/Data%20Structures/union%20find)
+
+## 관련 알고리즘 문제
+[1197: 최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+[1922: 네트워크 연결](https://www.acmicpc.net/problem/1922)
