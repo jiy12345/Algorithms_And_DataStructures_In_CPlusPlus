@@ -142,6 +142,7 @@
     <ClInclude Include="UnionFind.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="UnionFind.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
