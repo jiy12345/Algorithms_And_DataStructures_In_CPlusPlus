@@ -140,13 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\union find\UnionFind.h" />
     <ClInclude Include="Kruskal.h" />
+    <ClInclude Include="UnionFind.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\union find\UnionFind.cpp" />
     <ClCompile Include="Kruskal.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="UnionFind.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
