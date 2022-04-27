@@ -19,4 +19,6 @@ int Kruskal::totalWeight() {
 			totalWeight += cur_link[0];
 		}
 	}
+
+	return totalWeight;
 }
