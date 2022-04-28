@@ -9,7 +9,7 @@ private:
 public:
 	Stack(int stackCapacty);
 
-	int push(int X);
+	bool push(int X);
 	int pop();
 	int size();
 	bool empty();

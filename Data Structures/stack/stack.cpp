@@ -8,16 +8,16 @@ Stack::Stack(int stackCapacty) {
 	topIndex = -1;
 }
 
-int Stack::push(int X) {
-	if (full()) return -1;
+bool Stack::push(int X) {
+	if (full()) return false;
 	else {
 		stackArray[++topIndex] = X;
-		return 1;
+		return true;
 	}
 }
 
 int Stack::pop() {
-	if (empty()) return -1;
+	if (empty()) return INT_MIN;
 	else		 return stackArray[topIndex--];
 }
 
@@ -31,19 +31,19 @@ bool Stack::empty() {
 
 int Stack::top() {
 	if (empty()) {
-		return -1;
+		return INT_MIN;
 	}
 	else {
 		return stackArray[topIndex];
 	}
 }
 
-bool Stack::empty() {
+bool Stack::full() {
 	return (topIndex >= stackCapacity - 1);
 }
 
 void Stack::print() {
-	std::cout << '[';
+	std::cout << "[ ";
 	for (int i = 0; i <= topIndex; i++) std::cout << stackArray[i] << " ";
 	std::cout << ']' << '\n';
 }
