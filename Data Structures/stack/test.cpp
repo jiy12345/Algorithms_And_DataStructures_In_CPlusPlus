@@ -18,6 +18,7 @@ void stackSimulator() {
 	int capacity;
 	std::cout << "스택의 용량을 입력하세요: ";
 	std::cin >> capacity;
+	std::cout << '\n';
 
 	Stack stack = Stack(capacity);
 
