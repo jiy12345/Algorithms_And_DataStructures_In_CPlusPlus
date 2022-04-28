@@ -1,3 +1,5 @@
+#include<iostream>
+
 class Stack {
 private:
 	int stackCapacity;
@@ -13,4 +15,5 @@ public:
 	bool empty();
 	int top();
 	bool full();
+	void print();
 };
