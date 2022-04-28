@@ -28,4 +28,4 @@
 * [서로소 집합 자료 구조(disjoint-set)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%A1%9C%EC%86%8C_%EC%A7%91%ED%95%A9_%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)
 
 ## 실행 예시
-![stack test](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/docs/result%20images/stack%20test.png)
+![stack test](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/result%20images/stack%20test.png)
