@@ -1,3 +1,5 @@
+#include<limits.h>
+
 class Stack {
 private:
 	int stackCapacity;
