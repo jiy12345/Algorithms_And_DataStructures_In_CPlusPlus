@@ -1,6 +1,7 @@
 # Algorithms_And_DataStructures_In_CPlusPlus
 ## 자료구조
-- [합집합 찾기(Union find) / 서로소 집합(Disjoint set)](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/tree/master/Data%20Structures/union%20find)
+* [스택](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/tree/master/Data%20Structures/stack)
+* [합집합 찾기(Union find) / 서로소 집합(Disjoint set)](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/tree/master/Data%20Structures/union%20find)
 ## 알고리즘
 ### 주제에 따른 분류
 * **그래프(Graphs)**
