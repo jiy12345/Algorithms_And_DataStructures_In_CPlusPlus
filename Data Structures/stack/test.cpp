@@ -3,7 +3,7 @@
 #include<string>
 #include"Stack.h"
 
-enum STACK_COMMAND { QUIT = -1, PUSH = 1, POP, SIZE, EMPTY, FULL, TOP, PRINT };
+enum STACK_COMMAND { QUIT = -1, PUSH = 1, POP, SIZE, EMPTY, FULL, TOP };
 std::map<std::string, int> stackCommandMap = {
 	{"quit", QUIT},
 	{"push", PUSH},
@@ -12,7 +12,6 @@ std::map<std::string, int> stackCommandMap = {
 	{"empty", EMPTY},
 	{"full", FULL},
 	{"top", TOP},
-	{"print", PRINT},
 };
 
 void stackSimulator() {
@@ -22,14 +21,12 @@ void stackSimulator() {
 
 	Stack stack = Stack(capacity);
 
-
-
 	while(true) {
 		std::cout << "=========================================stack simulator=========================================" << '\n';
 		std::cout << "push X: X를 스택에 푸시합니다.\t\t\t pop: 스택의 top에 있는 수를 제거하고 출력합니다.\n";
 		std::cout << "size: 스택의 현재 크기를 출력합니다.\t\t top: 스택의 top에 있는 수를 출력합니다.\n";
 		std::cout << "empty: 스택이 비어있는지 확인합니다.\t\t full : 수가 들어갈 여유공간이 있는지 확인합니다.\n";
-		std::cout << "print: 현재 스택에 있는 수들을 출력합니다.\t quit: 종료합니다.\n";
+		std::cout << "quit: 종료합니다.\n";
 		std::cout << "=================================================================================================" << '\n';
 		std::cout << "명령을 입력해주세요: ";
 		std::string command;
@@ -57,9 +54,6 @@ void stackSimulator() {
 			int result;
 			result = stack.top();
 			std::cout << ((result == INT_MIN) ? "스택이 비어 있습니다." : std::to_string(result)) << '\n';
-			break;
-		case PRINT:
-			stack.print();
 			break;
 		case QUIT:
 			std::cout << "종료합니다." << '\n';

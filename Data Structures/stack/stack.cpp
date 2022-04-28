@@ -41,9 +41,3 @@ int Stack::top() {
 bool Stack::full() {
 	return (topIndex >= stackCapacity - 1);
 }
-
-void Stack::print() {
-	std::cout << "[ ";
-	for (int i = 0; i <= topIndex; i++) std::cout << stackArray[i] << " ";
-	std::cout << ']' << '\n';
-}
