@@ -27,8 +27,8 @@
 ### 선형 방식
 배열의 선형적인 특성을 그대로 유지하는 방식입니다. 이 경우, Front 앞쪽에 빈 공간이 생기는 것을 방지하기 위해 삭제(dequeue)가 일어날 때마다 데이터들을 앞으로 한칸씩 당겨와야 합니다. 당연히 시간복잡도상 좋지 않다고 볼 수 있겠습니다.
 
-### 원형(Circlular) 방식
-배열을 원형으로 활용하므로서, 배열의 선형성 때문에 발생하는 문제를 쉽게 해결할 수 있습니다. 아래는 원형 방식으로 구현한 큐를 그림으로 나타낸 것입니다.  
+### 원형 방식
+배열을 원형(Circlular)으로 활용하므로서, 배열의 선형성 때문에 발생하는 문제를 쉽게 해결할 수 있습니다. 아래는 원형 방식으로 구현한 큐를 그림으로 나타낸 것입니다.  
  ![circular queue](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/Image%20for%20description/circular%20queue.jpeg)  
 (출처: https://www.geeksforgeeks.org/advantages-of-circular-queue-over-linear-queue/)  
 큐의 끝에 다다르면 다시 처음으로 가게 되므로, 기존의 선형 방식에서는 활용할 수 없었던, 혹은 활용하려면 많은 노력을 들여야 했던 공간을 쉽게 활용할 수 있습니다.
