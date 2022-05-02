@@ -41,7 +41,7 @@ void stackSimulator() {
 			std::cout << ((queue.enqueue(X)) ? "수가 정상적으로 삽입되었습니다." : "큐 용량이 부족하여 수가 삽입되지 못했습니다.") << '\n';
 			break;
 		case DEQUEUE:
-			std::cout << ((queue.dequeue() == INT_MIN) ? "큐가 비어 있습니다." : "top에 있는 수가 정상적으로 제거되었습니다.") << '\n';
+			std::cout << ((queue.dequeue() == INT_MIN) ? "큐가 비어 있습니다." : "front에 있는 수가 정상적으로 제거되었습니다.") << '\n';
 			break;
 		case SIZE:
 			std::cout << queue.size() << '\n';
