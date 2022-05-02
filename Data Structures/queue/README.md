@@ -7,7 +7,7 @@
 
 ## 종류
  큐는 삽입과 삭제가 각기 다른 방향에서 일어납니다. 따라서 배열로 구현했을 시 큐의 처음과 끝의 배열 상에서의 위치가 계속해서 뒤로 밀리게 됩니다. 따로 처리를 해주지 않는다면 앞쪽에 남은 공간을 사용하지 못하게 되는 문제가 발생합니다.
- ![linear queue](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/Image%20for%20description/linear%20queue.jpeg)
+ ![linear queue](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/Image%20for%20description/linear%20queue.jpeg)  
  (출처: https://www.geeksforgeeks.org/advantages-of-circular-queue-over-linear-queue/)
  위의 그림에서 확인할 수 있듯, 일반적인 배열은 선형적인 형태이므로 Front 앞쪽 공간이 반드시 비었음에도 사용할 수 없는 상태가 됩니다.
  
@@ -19,8 +19,8 @@
 
 - 원형(Circlular) 방식
 배열을 원형으로 활용하므로서, 배열의 선형성 때문에 발생하는 문제를 쉽게 해결할 수 있습니다. 아래는 원형 방식으로 구현한 큐를 그림으로 나타낸 것입니다.
- ![circular queue](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/Image%20for%20description/circular%20queue.jpeg)
- (출처: https://www.geeksforgeeks.org/advantages-of-circular-queue-over-linear-queue/)
+ ![circular queue](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/Image%20for%20description/circular%20queue.jpeg)  
+(출처: https://www.geeksforgeeks.org/advantages-of-circular-queue-over-linear-queue/)
 큐의 끝에 다다르면 다시 처음으로 가게 되므로, 기존의 선형 방식에서는 활용할 수 없었던, 혹은 활용하려면 많은 노력을 들여야 했던 공간을 쉽게 활용할 수 있습니다.
 실제 구현은 인덱스가 배열의 끝에 다다랐을 때 0으로 바꾸어 주는 형식으로 이루어지게 됩니다.
 
