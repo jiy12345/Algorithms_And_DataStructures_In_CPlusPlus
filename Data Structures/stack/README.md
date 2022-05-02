@@ -1,11 +1,17 @@
 # 스택(stack)
+
+- [개념](#개념)
+- [스택의 연산](#스택의-연산)
+- [참고](#참고)
+- [실행 예시](#실행-예시)
+
 ## 개념
 스택(stack)은 제한적으로 접근할 수 있는 자료구조로, 스택에 대한 접근은 언제나 목록의 끝(top)에서만 일어나도록 구현되어 있습니다.
 ![stack](https://upload.wikimedia.org/wikipedia/commons/2/29/Data_stack.svg)  
 
 스택은 한 쪽 끝에서만 자료를 넣거나 뺄 수 있는 선형 구조 이므로, LIFO(Last In First Out)방식을 적용한 자료구조라고 볼 수 있습니다.
 
-## stack의 연산
+## 스택의 연산
 - 생성자
     - 용량(capacity) 설정
     - 설정된 capacity 만큼의 배열 동적 할당
