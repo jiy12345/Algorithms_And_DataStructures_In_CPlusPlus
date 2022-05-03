@@ -9,6 +9,7 @@ class BFS0_1 {
 
 public:
 	BFS0_1(int size, std::vector<std::pair<int, int>>* edges);
+	~BFS0_1();
 	int getCost(int start, int dest);
 };
 
