@@ -15,8 +15,10 @@ BFS0_1::~BFS0_1() {
 }
 
 int BFS0_1::getCost(int start, int dest) {
+    std::vector<bool>isVisited(size);
     std::deque<std::pair<int, int>> bfs_queue;
     bfs_queue.push_back({ start, 0 });;
+    isVisited[start] = true;
 
     while (!bfs_queue.empty()) {
         int cur_node = bfs_queue.front().first;
@@ -31,23 +33,18 @@ int BFS0_1::getCost(int start, int dest) {
             int next_node = nextInfo.first;
             int next_cost = nextInfo.second;
 
+            if (isVisited[next_node]) continue;
+
             if (next_cost == 1) {
                 bfs_queue.push_back({ next_node, cur_cost + 1 });
             }
             else {
                 bfs_queue.push_front({ next_node, cur_cost });
             }
+
+            isVisited[next_node] = true;
         }
     }
 
     return -1;
-}
-
-int BFS0_1::getCost() {
-    // 아직 시작 노드가 설정되지 않은 경우
-    if (start == -1) return -1;
-
-
-
-    return 0;
 }
