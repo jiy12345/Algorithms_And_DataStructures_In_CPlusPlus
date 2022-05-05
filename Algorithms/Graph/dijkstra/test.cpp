@@ -6,22 +6,23 @@ int main() {
 	std::cin.tie(NULL); std::cout.tie(NULL);
 
 	int V, E;
-	std::vector<std::pair<int, int>> *nodes;
+	std::vector<std::vector<int>> edges;
 
 	std::cin >> V >> E;
-	nodes = new std::vector<std::pair<int, int>>[V];
 
 	for (int i = 0; i < E; i++) {
 		int A, B, weight;
 		std::cin >> A >> B >> weight;
-		nodes[A].push_back({ weight, B });
-		nodes[B].push_back({ weight, A });;
+		edges.push_back({ A, B, weight });;
 	}
 
-	Dijkstra dijkstra(V, nodes);
+	Dijkstra dijkstra(V, edges);
 
 	int* resultArray = new int[V];
 	int startNode = 0;
+
+	std::cout << "시작점을 입력해주세요: ";
+	std::cin >> startNode;
 
 	dijkstra.dijkstra(startNode, resultArray);
 
@@ -30,10 +31,10 @@ int main() {
 	for (int i = 0; i < V; i++) {
 		printf("%6d까지", i);
 	}
-
 	std::cout << std::endl;
 
 	for (int i = 0; i < V; i++) {
 		printf("%10d", resultArray[i]);
 	}
+	std::cout << std::endl;
 }

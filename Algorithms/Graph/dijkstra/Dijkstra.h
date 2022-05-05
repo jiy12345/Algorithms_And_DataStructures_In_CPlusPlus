@@ -9,7 +9,7 @@ class Dijkstra {
 	std::vector<std::pair<int, int>> *nodes;
 
 public:
-	Dijkstra(int numOfNodes, std::vector<std::pair<int, int>> *nodes);
+	Dijkstra(int numOfNodes, std::vector<std::vector<int>> edges);
 	void dijkstra(int startNode, int* resultArray);
 };
 
