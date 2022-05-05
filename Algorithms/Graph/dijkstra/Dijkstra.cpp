@@ -28,9 +28,6 @@ void Dijkstra::dijkstra(int startNode, int* distanceFromStart) {
         int cur_node = dijkstra_queue.top().second;
         dijkstra_queue.pop();
 
-        std::cout << "cur_cost: " << cur_cost << ", cur_node: " << cur_node << std::endl;
-        std::cout << "nodes[cur_node].size(): " << nodes[cur_node].size() << std::endl;
-
         for (int i = 0; i < nodes[cur_node].size(); i++) {
             int next_cost = nodes[cur_node][i].first;
             int next_node = nodes[cur_node][i].second;

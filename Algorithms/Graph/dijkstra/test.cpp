@@ -26,7 +26,7 @@ int main() {
 
 	dijkstra.dijkstra(startNode, resultArray);
 
-	std::cout << "- 점 " << startNode << "로부터의 거리" << std::endl;
+	std::cout << "- 점 " << startNode << "(으)로부터의 거리" << std::endl << std::endl;
 
 	for (int i = 0; i < V; i++) {
 		printf("%6d까지", i);
