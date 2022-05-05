@@ -25,8 +25,8 @@ void Dijkstra::dijkstra(int startNode, int* distanceFromStart) {
         dijkstra_queue.pop();
 
         for (int i = 0; i < nodes[cur_node].size(); i++) {
-            int next_cost = nodes[cur_node][i].second;
-            int next_node = nodes[cur_node][i].first;
+            int next_cost = nodes[cur_node][i].first;
+            int next_node = nodes[cur_node][i].second;
 
             if (distanceFromStart[next_node] > cur_cost + next_cost) {
                 distanceFromStart[next_node] = cur_cost + next_cost;
