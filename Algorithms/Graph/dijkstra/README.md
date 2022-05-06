@@ -11,7 +11,7 @@
 다익스트라 알고리즘(Dijkstra's algorithm) 그래프의 노드로부터 다른 모든 노드로의 최단 거리를 구하는 알고리즘입니다. 단 다익스트라 알고리즘을 활용하기 위한 조건이 하나 있는데, 바로 그래프에 포함된 간선의 가중치에 음수가 없어야 한다는 것입니다. 음수가 있다면 [벨먼-포드 알고리즘(Bellman-Ford algorithm)](https://ko.wikipedia.org/wiki/%EB%B2%A8%EB%A8%BC-%ED%8F%AC%EB%93%9C_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)을 활용하여야 합니다.
 
 ## 동작 방식
-![Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif)  
+![Dijkstra's algorithm](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)  
 출처: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm    
   
 위의 그림은 다익스트라 알고리즘이 어떤 방식으로 동작하는지를 보여주고 있습니다.
@@ -46,7 +46,7 @@
 - https://www.baeldung.com/cs/dijkstra-time-complexity
 
 ## 실행 예시
-![Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif)  
+![Dijkstra's algorithm](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)  
 위 그림에서의 그래프 정보를 그대로 입력하여 테스트해봤습니다.  
 입력된 데이터는 [여기](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/Algorithms/Graph/dijkstra/input.txt)있습니다.  
 ![dijkstra test](https://github.com/jiy12345/Algorithms_And_DataStructures_In_CPlusPlus/blob/master/result%20images/dijkstra%20test.png)
