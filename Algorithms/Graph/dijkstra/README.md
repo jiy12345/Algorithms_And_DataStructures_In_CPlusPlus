@@ -44,6 +44,7 @@
 ## 참고
 - https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
 - https://www.baeldung.com/cs/dijkstra-time-complexity
+- https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%8A%B8%EB%9D%BC_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
 
 ## 실행 예시
 ![Dijkstra's algorithm](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)  
