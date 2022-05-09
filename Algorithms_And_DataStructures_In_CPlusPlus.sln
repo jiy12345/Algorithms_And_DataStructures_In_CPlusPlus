@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1 bfs", "Algorithms\Graph
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dijkstra", "Algorithms\Graph\dijkstra\dijkstra.vcxproj", "{8A97CA3C-3EA5-473A-BB1A-5C146C720B1E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linked list", "Data Structures\linked list\linked list.vcxproj", "{9520D232-FA61-449A-9B3E-E78B1A56D9FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -77,6 +79,14 @@ Global
 		{8A97CA3C-3EA5-473A-BB1A-5C146C720B1E}.Release|x64.Build.0 = Release|x64
 		{8A97CA3C-3EA5-473A-BB1A-5C146C720B1E}.Release|x86.ActiveCfg = Release|Win32
 		{8A97CA3C-3EA5-473A-BB1A-5C146C720B1E}.Release|x86.Build.0 = Release|Win32
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Debug|x64.ActiveCfg = Debug|x64
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Debug|x64.Build.0 = Debug|x64
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Debug|x86.Build.0 = Debug|Win32
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Release|x64.ActiveCfg = Release|x64
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Release|x64.Build.0 = Release|x64
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Release|x86.ActiveCfg = Release|Win32
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +99,7 @@ Global
 		{95428B2C-CC3D-441E-8DCF-23462E6FD840} = {46B6A0E7-B4EF-4991-9901-ABBF491523E7}
 		{C7AEBEFC-D041-4DAD-BE4E-2551DCE23117} = {18CCE62C-8FCF-4279-990A-2F06D3D12931}
 		{8A97CA3C-3EA5-473A-BB1A-5C146C720B1E} = {18CCE62C-8FCF-4279-990A-2F06D3D12931}
+		{9520D232-FA61-449A-9B3E-E78B1A56D9FA} = {46B6A0E7-B4EF-4991-9901-ABBF491523E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {263EECC8-BF3E-429A-8E05-EB21275B0696}
